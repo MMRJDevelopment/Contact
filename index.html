@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact App</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div id="main-screen">
+      <button id="all-contact-btn">All Contact</button>
+      <button id="us-contact-btn">US Contact</button>
+    </div>
+
+    <div id="modal-a" class="modal">
+      <div class="modal-content">
+        <h2>Modal A - All Contacts</h2>
+        <input type="text" id="search-a" placeholder="Search..." />
+        <div id="contact-list-a" class="contact-list"></div>
+        <button id="modal-a-all-btn">All Contacts</button>
+        <button id="modal-a-us-btn">US Contacts</button>
+        <button id="modal-a-close-btn">Close</button>
+      </div>
+    </div>
+
+    <div id="modal-b" class="modal">
+      <div class="modal-content">
+        <h2>Modal B - US Contacts</h2>
+        <input type="text" id="search-b" placeholder="Search..." />
+        <div id="contact-list-b" class="contact-list"></div>
+        <button id="modal-b-all-btn">All Contacts</button>
+        <button id="modal-b-us-btn">US Contacts</button>
+        <button id="modal-b-close-btn">Close</button>
+      </div>
+    </div>
+
+    <div id="modal-c" class="modal">
+      <div class="modal-content">
+        <h2>Contact Details</h2>
+        <div id="contact-details"></div>
+        <button id="modal-c-close-btn">Close</button>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
